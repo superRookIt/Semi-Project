@@ -19,7 +19,7 @@ public class BListcommand implements BCommand {
 		int limit = 10; // 1page당 게시글 10개
 
 		
-	    String searchflag = request.getParameter("searchflag"); // 검색체크
+	        String searchflag = request.getParameter("searchflag"); // 검색체크
 
 	    
 		String opt = request.getParameter("option"); // 전체, 제목, 내용
